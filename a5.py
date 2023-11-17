@@ -137,7 +137,7 @@ class Board:
             for cell in row:
                 if not cell:
                     return True
-        return false
+        return False
 
     def goal_test(self) -> bool:
         """Check if we've completed the puzzle (if we've placed all the numbers).
